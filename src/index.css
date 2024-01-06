@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Basier Circle';
+  src: url(font/Basier\ Circle\ Regular.otf);
+}
+
+@font-face {
+  font-family: 'Basier Square';
+  src: url(font/Basier\ Square\ Regular.otf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Basier Circle';
+}
+
+.title {
+  color: #0C0C0C;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.20px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    color: #0C0C0C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.40px;
+  }
+}
